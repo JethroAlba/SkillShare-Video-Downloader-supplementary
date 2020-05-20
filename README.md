@@ -1,6 +1,9 @@
 # SkillShare Video Downloader (supplementary)
 
-This repository contains the script for downloading SkillShare Videos. This is not a stand-alone script; it only supplements the SkillShare Free Downloader Extension in Google Chrome by downloading files that can be converted to .mp4 format using VLC Player. 
+This repository contains the script `SS_downloader.R`for downloading SkillShare Videos. This is not a stand-alone script; it only supplements the SkillShare Free Downloader Extension in Google Chrome by downloading files that can be converted to .mp4 format using VLC Player. 
+
+This repository also contains an optional script `m3u8_CleanUp.R` which can be used to remove the .m3u8 files after converting to .mp4.
+
 
 # Why is this supplementary script necessary?
 
@@ -30,6 +33,7 @@ Within the function `SS.downloader` is a formal called `delete`, which takes in 
 5. Load the script.
 6. Run the `SS.downloader` function. (set `delete` according to preference). 
 7. Convert downloaded files using VLC Media Player 
+8. **Optional**: m3u8_cleanUp.R to remove the .m3u8 files in each folder after converting to .mp4. 
 
 # Converting downloaded files to .mp4 format using VLC
 1. Open VLC Media Player
