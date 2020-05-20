@@ -42,7 +42,6 @@ Within the function `SS.downloader` is a formal called `delete`, which takes in 
 * If converting files from multiple folders, converted files will automatically be stored in the same folder where the original files are located.
 
 
-
 # Notes
 
 1. Make sure to working directory has folders containing the initial .m3u8 files. 
